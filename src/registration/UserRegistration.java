@@ -1,5 +1,8 @@
 package registration;
 
+import registration.exception.WrongLoginException;
+import registration.exception.WrongPasswordException;
+
 /**
  * This class is used to verification user registration
  */
@@ -18,7 +21,6 @@ public class UserRegistration {
      * @param login           <i>must be less than 20 characters and must not contain spaces.</i>
      * @param password        <i>must be less than 20 characters long, must not contains spaces and must contain at least one digit.</i>
      * @param confirmPassword <i>must match the password</i>
-     * @return {@code true} when the login and password are valid, else return {@code false}
      * @throws WrongLoginException    when login are invalid
      * @throws WrongPasswordException when password are invalid or mismatch the confirmPassword
      */

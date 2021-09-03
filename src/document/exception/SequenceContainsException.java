@@ -1,12 +1,13 @@
-package document;
+package document.exception;
 
-public class SequenceStartException extends Exception{
+public class SequenceContainsException extends Exception {
     private String docNumber;
 
     public String getDocNumber() {
         return docNumber;
     }
-    public SequenceStartException(String message, String docNumber) {
+
+    public SequenceContainsException(String message, String docNumber) {
         super(message);
         this.docNumber = docNumber;
     }
