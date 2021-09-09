@@ -1,7 +1,7 @@
 package registration;
 
-import registration.exception.WrongLoginException;
-import registration.exception.WrongPasswordException;
+import exception.WrongLoginException;
+import exception.WrongPasswordException;
 
 /**
  * This class is used to verification user registration

@@ -1,4 +1,4 @@
-package document.exception;
+package exception;
 
 public class SequenceContainsException extends Exception {
     private String docNumber;

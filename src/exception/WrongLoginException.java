@@ -1,4 +1,4 @@
-package registration.exception;
+package exception;
 
 /**
  * Custom exception

@@ -1,8 +1,8 @@
 package document;
 
-import document.exception.SequenceContainsException;
-import document.exception.SequenceEndException;
-import document.exception.SequenceStartException;
+import exception.SequenceContainsException;
+import exception.SequenceEndException;
+import exception.SequenceStartException;
 
 /**
  * This class is used to work with documents
